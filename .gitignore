@@ -2,3 +2,8 @@ core.Microsoft*
 env.py
 __pycache__/
 *.py[cod]
+env.py
+
+os.environ["DBS_NAME"] = "myTestDB"
+os.environ["COLLECTION_NAME"] = "myFirstMDB"
+os.environ["MONGO_URI"] = 'mongodb+srv://root:r00tUser@myfirstcluster.tzpih.mongodb.net/myTestDB?retryWrites=true&w=majority'
